@@ -2,6 +2,7 @@
 
 # (multimodal) transformer for pose prediction in strawberry picking (autonomous driving and vertebrae scanner)
 Previous work: https://github.com/Netbot-MBZUAI
+
 Dataset: https://universe.roboflow.com/strawberry-detection-aghjb/strawberry-detection2-iilvu 
 
 | Model                 | Pretraining Dataset | Scale   | #Parameters | .pth Download Link                                                                 |
