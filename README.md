@@ -1,6 +1,6 @@
 # sim2real_pose_prediction
 
-# (multimodal) transformer for pose prediction in strawberry picking (autnomous driving and vertebrae scanner)
+# (multimodal) transformer for pose prediction in strawberry picking (autonomous driving and vertebrae scanner)
 
 dataset: https://universe.roboflow.com/strawberry-detection-aghjb/strawberry-detection2-iilvu 
 
