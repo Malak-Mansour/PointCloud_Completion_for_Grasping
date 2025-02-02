@@ -17,7 +17,7 @@ Then record on the RealSense Viewer to retrieve a .bag file. To extract pointclo
 7. cd sam2
 8. pip install -e .
 9. pip install -e ".[notebooks]"
-10. add the 3 files in sam2_additional_files of this repo into your sam2/sam2 folder
+10. add the 3 files in sam2_additional_files of this repo (segment_pointcloud.ipynb, yolo_model.pt, sam2_hiera_small.pt) into your sam2/sam2 folder
 11. run segment_pointcloud.ipynb to segment pointcloud input using the segmented images
 
 This is how you can view the segmented pointclouds:
