@@ -1,4 +1,7 @@
 ### Segmenting pointcloud with SAM2: 
+
+Modification to SAM2 repo: added segment_pointcloud.ipynb to \sam2_segmentation\sam2\sam2\segment_pointcloud.ipynb
+
 1. From sam2: https://github.com/facebookresearch/sam2
 2. conda create --name sam2 python=3.10
 3. conda activate sam2

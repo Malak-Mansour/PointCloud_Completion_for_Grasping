@@ -1,4 +1,7 @@
 ### Pointcloud stitching with TEASER to extract transformation matrix:
+
+Modification to TEASER-plusplus repo: added stitch_and_visualize.ipynb to pointcloud_stitching\TEASER-plusplus\examples\stitch_and_visualize.ipynb
+
 1. From TEASER++: https://github.com/MIT-SPARK/TEASER-plusplus
 2. Follow the Minimal Python 3 example instructions
 3. In examples/teaser_python_ply/teaser_python_ply.py, replace   dst_cloud = src_cloud.transform(T) with     dst_cloud = o3d.io.read_point_cloud("/home/netbot/Documents/Malak/sam2/sam2/segmented_pointcloud/segmented_0002.ply")
