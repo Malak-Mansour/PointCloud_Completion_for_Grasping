@@ -207,8 +207,6 @@ while True:
                 # cv2.imshow(detection, data["image"])
                 # if cv2.waitKey(0) & 0xFF == ord('q'):
                 #     break
-# at the end of the file theres a pcd of a single straw and the corresponding segmented image. if u want to save somehow
-# it's skipping 10 frames at a time
      
        
         # cv2.imshow("RGB Image", bgr_image)
