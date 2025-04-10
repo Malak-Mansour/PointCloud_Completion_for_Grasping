@@ -12,4 +12,6 @@
 10. add the 3 files in sam2_additional_files of this repo (segment_pointcloud.ipynb, yolo_model.pt, sam2_hiera_small.pt) into your sam2/sam2 folder
 11. run segment_pointcloud.ipynb to segment pointcloud input using the segmented images
 
-Modification to SAM2 repo: add to /sam2/sam2/ segment_pointcloud.ipynb, filter_points.pt (remeber to use yolo.detect instead of yolo.track), sam2_hiera_small.pt, yolo_model.pt
+Modification to original SAM2 repo: add /sam2/sam2/segment_pointcloud.ipynb, /sam2/sam2/filter_points.py (use yolo.detect instead of yolo.track), sam2/sam2/transform_model_to_real.py
+
+and the weights /sam2/sam2/sam2_hiera_small.pt, /sam2/sam2/yolo_model.pt (https://mbzuaiac-my.sharepoint.com/:f:/g/personal/ali_abouzeid_mbzuai_ac_ae/EsXmWhZEZTxJhKAuM2zVgiABcSbVgcHVQ8_1HYrLKD-juQ?e=Gb4yHe)
