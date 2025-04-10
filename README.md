@@ -1,6 +1,6 @@
 # A Point Cloud Completion Approach for the Grasping of Partially Occluded Objects and Its Applications in Robotic Strawberry Harvesting
 
-.1 Collecting sim data from IsaacSim strawberry field setup
+1. Collecting sim data from IsaacSim strawberry field setup
 2. Collecting real dataset method and a description of what each step does: 
   - **IntelRealsenseViewer:** collect a bag using the Intel Realsense camera and the IntelRealsenseViewer software on Windows
   - **sam2/sam2/filterpoints.py:** extract this bag into RGB and Depth images, which can extract a point cloud. Run SAM2 on the images to segment strawberries, which you can use to segment the strawberries in the pointcloud
