@@ -5,6 +5,6 @@ The directories data and data_test contain the mixed (sim+real) datasets that we
 2. Collecting real data method and a description of what each step does: 
   - **IntelRealsenseViewer:** collect a bag using the Intel Realsense camera and the IntelRealsenseViewer software on Windows
   - **sam2/sam2/filterpoints.py:** extract this bag into RGB and Depth images, which can extract a point cloud. Run SAM2 on the images to segment strawberries, which you can use to segment the strawberries in the pointcloud
-    - For verification purposes, you can also extract the bag into RGB and Depth images, which can extract a point cloud using **extract_IntelRealsense_bag/view_bag.ipynb**
+    - For verification purposes, you can also extract the bag into RGB and Depth images, which can extract a point cloud using **extract_IntelRealsense_bag/view_bag.ipynb**, then view it using **extract_IntelRealsense_bag/visualize_pointcloud_files.ipynb**
   - **sam2/sam2/transform_model_to_real.py:** to manually label the segmented point clouds (match them on top of the ground truth strawberry model) using the x, y, z position and angle scroll bars, then save the transformed model and matrix
   - **PointAttN-Modified/PointAttN-Modified_main/test.ipynb:** to convert the saved transformations into a dataset that will be accepted as input for PointAttn 
