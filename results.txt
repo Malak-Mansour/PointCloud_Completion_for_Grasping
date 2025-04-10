@@ -1,0 +1,36 @@
+PointNext - old loss, sim data
+train - best_cd_p: 0.001578 [epoch 177]; best_cd_t: 0.000010 [epoch 177]; best_cd_t_coarse: 0.004752 [epoch 304]; best_cd_p_coarse: 0.031346 [epoch 332]; 
+test - cd_p: 0.002549 cd_t: 0.000555 cd_t_coarse: 0.004949 cd_p_coarse: 0.031346 
+
+
+
+PointNext - old loss, sim data (removed extra projection layer)
+train - best_cd_p: 0.001480 [epoch 388]; best_cd_t: 0.000008 [epoch 388]; best_cd_t_coarse: 0.003668 [epoch 356]; best_cd_p_coarse: 0.028082 [epoch 356]; 
+test - cd_p: 0.001480 cd_t: 0.000008 cd_t_coarse: 0.005132 cd_p_coarse: 0.036367 
+
+
+
+PointNeXt - hcd, mixed data 
+cd_p: 0.023111 cd_t: 0.023111 cd_t_coarse: 0.218549 cd_p_coarse: 0.218549 
+(cd_t: cd, cd_p: hcd) cd_p: 0.023111 cd_t: 0.000188 cd_t_coarse: 0.218549 cd_p_coarse: 0.218549 
+
+dgcnn - hcd, mixed data (pointAttn_copy)
+cd_p: 0.203674 cd_t: 0.203674 cd_t_coarse: 0.266067 cd_p_coarse: 0.266067 
+(cd_t: cd, cd_p: hcd) cd_p: 0.203674 cd_t: 0.011655 cd_t_coarse: 0.266067 cd_p_coarse: 0.266067 
+
+
+
+PointAttn - hcd, mixed data, BASELINE
+train - best_cd_p: 0.012430 [epoch 238]; best_cd_t: 0.000047 [epoch 104]; best_cd_t_coarse: 0.017359 [epoch 372]; best_cd_p_coarse: 0.017359 [epoch 372]; 
+test - cd_p: 0.013936 cd_t: 0.000189 cd_t_coarse: 0.017359 cd_p_coarse: 0.017359 
+
+
+PointAttn - hcd, mixed data, downsampling 
+train - best_cd_p: 0.011709 [epoch 275]; best_cd_t: 0.000045 [epoch 141]; best_cd_t_coarse: 0.015352 [epoch 399]; best_cd_p_coarse: 0.015352 [epoch 399]; 
+test - cd_p: 0.013218 cd_t: 0.000090 cd_t_coarse: 0.015352 cd_p_coarse: 0.015352 
+
+
+
+PointAttn - hcd, mixed data, downsampling + SVDformer for generation
+train - best_cd_p: 0.013437 [epoch 190]; best_cd_t: 0.000074 [epoch 145]; best_cd_t_coarse: 0.017191 [epoch 333]; best_cd_p_coarse: 0.017191 [epoch 333]; 
+test - cd_p: 0.014167 cd_t: 0.000145 cd_t_coarse: 0.017191 cd_p_coarse: 0.017191 
