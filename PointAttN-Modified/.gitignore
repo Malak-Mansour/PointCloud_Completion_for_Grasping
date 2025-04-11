@@ -119,7 +119,7 @@ venv.bak/
 ##################
 # mypy
 #.mypy_cache/
-/log/
+#/log/
 #/log/PointAttN_cd_debug_pcn/all/
 /transformation_detection_model/
 /transformation_detection_matrix/
