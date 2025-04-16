@@ -1,14 +1,37 @@
 batch_size: 16
 workers: 8
 nepoch: 400
-model_name: PointAttN
-load_model: #./log/PointAttN_cd_debug_pcn/best_cd_p_coarse_network.pth #./log/PointAttN_cd_debug_pcn/best_cd_p_network.pth 
+
+model_name: PointAttN_baseline_cd
+# model_name: PointAttN_baseline_hcd
+# model_name: PointAttN_downsampling_cd
+# model_name: PointAttN_downsampling_hcd
+# model_name: PointAttN_SVD_cd
+# model_name: PointAttN_SVD_hcd
+
+# python train.py -c PointAttN.yaml
+# python test_pcn.py -c PointAttN.yaml
+
+load_model:
+# load_model: ./log/PointAttN_baseline_cd_cd_debug_pcn/best_cd_p_coarse_network.pth   
+# load_model: ./log/PointAttN_baseline_cd_cd_debug_pcn/network.pth 
+
+# load_model: ./log/PointAttN_baseline_hcd_cd_debug_pcn/best_cd_p_coarse_network.pth   
+# load_model: ./log/PointAttN_baseline_hcd_cd_debug_pcn/network.pth 
+
+# load_model: ./log/PointAttN_downsampling_cd_cd_debug_pcn/best_f1_network.pth   
+# load_model: ./log/PointAttN_downsampling_cd_cd_debug_pcn/network.pth 
+
+# load_model: ./log/PointAttN_downsampling_hcd_cd_debug_pcn/best_cd_p_network.pth   
+# load_model: ./log/PointAttN_downsampling_hcd_cd_debug_pcn/network.pth 
+
+
 start_epoch: 0
 num_points: 2048
 work_dir: log/
 flag: debug
 loss: cd #cd
-manual_seed: null # 1748
+manual_seed: 1748
 step_interval_to_print: 100
 epoch_interval_to_save: 1
 epoch_interval_to_val: 1
