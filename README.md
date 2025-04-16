@@ -6,6 +6,8 @@
 4. TO-DO: Send topics to MoveIt to test grasping
 5. TO-DO: Deploy on robotic arm using Nvidia Jetson Orin
 
+TO-DO: add modified SVD file to models
+
 ## Dataset
 The directories data and data_test in **PointAttN-Modified/data_sim** and **PointAttN-Modified/data_mix** contain the pure simulation data and mixed (sim+real) datasets, respectively, that were used in experimentations
 
