@@ -50,7 +50,7 @@ def test():
     logging.info("%s's previous weights loaded." % args.model_name)
     net.eval()
 
-    metrics = ['cd_p', 'cd_t', 'cd_t_coarse', 'cd_p_coarse']
+    metrics = ['cd_p', 'cd_t', 'cd_t_coarse', 'cd_p_coarse', "cd_hyp", "f1"]
     test_loss_meters = {m: AverageValueMeter() for m in metrics}
     test_loss_cat = torch.zeros([8, 4], dtype=torch.float32).cuda()
     cat_num = torch.ones([8, 1], dtype=torch.float32).cuda() * 150
