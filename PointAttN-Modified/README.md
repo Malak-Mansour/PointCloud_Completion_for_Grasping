@@ -58,8 +58,11 @@ cd ../..
 ```
 
 # Choosing the dataset
-Choose either data_sim or data_mix in `train.py` and `test_pcn.py`
-
+Choose either data_sim or data_mix as the training and validation datasets with simulation data only or a mix of sim and real in `train.py`, and choose data_test_unseen in `test_pcn.py`
+The datasets can be found here: 
+- data_sim: https://mbzuaiac-my.sharepoint.com/:u:/g/personal/ali_abouzeid_mbzuai_ac_ae/EUdkBMV3K8JDr-7-muo56JYB3pKqGPo6XIb6yqVstma4SA?e=RtneWU
+- data_mix: https://mbzuaiac-my.sharepoint.com/:u:/g/personal/ali_abouzeid_mbzuai_ac_ae/EfReJ-EBVItPpgxsYwHU3W4BumaX2g0VZizfDzv1rTcMhw?e=gLcvvv
+- data_test_unseen: https://mbzuaiac-my.sharepoint.com/:u:/g/personal/ali_abouzeid_mbzuai_ac_ae/EXdsHf4futdLgVjCWzbRtOYB1ie58nQ_MvT5oSfQTvkDLg?e=fIgfKF
 
 # Train, Test, and Visualize
 ## Train a model
