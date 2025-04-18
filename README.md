@@ -24,7 +24,7 @@ The directories data and data_test in **PointAttN-Modified/data_sim** and **Poin
 # Acknowledgement
 The baseline code is borrowed from [PointAttN](https://github.com/ohhhyeahhh/PointAttN)
 
-Modification to the generation was borrowed from [PointSea](https://github.com/czvvd/SVDFormer_PointSea)
+Modification to the generation (sfa) was borrowed from [PointSea](https://github.com/czvvd/SVDFormer_PointSea)
 
 HCD loss function was borrowed from [HyperCD](https://github.com/ark1234/ICCV2023-HyperCD)
 
