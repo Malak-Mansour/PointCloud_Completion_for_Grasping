@@ -20,7 +20,7 @@ def calc_cd(output, gt, calc_f1=False):
     cd_p = (torch.sqrt(dist1).mean(1) + torch.sqrt(dist2).mean(1)) / 2
     cd_t = (dist1.mean(1) + dist2.mean(1))
     if calc_f1:
-        f1, _, _ = fscore(dist1, dist2)
+        f1, _, _ = fscore(dist1, dist2, threshold=0.0001)
         return cd_p, cd_t, f1
     else:
         return cd_p, cd_t
