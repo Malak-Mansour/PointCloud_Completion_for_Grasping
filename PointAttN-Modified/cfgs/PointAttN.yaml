@@ -4,10 +4,8 @@ nepoch: 400
 
 model_name: PointAttN_baseline_cd
 # model_name: PointAttN_baseline_hcd
-# model_name: PointAttN_downsampling_cd
-# model_name: PointAttN_downsampling_hcd
-# model_name: PointAttN_SVD_cd
-# model_name: PointAttN_SVD_hcd
+# model_name: PointAttN_sfa_cd
+# model_name: PointAttN_sfa_hcd
 
 # python train.py -c PointAttN.yaml
 # python test_pcn.py -c PointAttN.yaml
@@ -19,12 +17,11 @@ load_model:
 # load_model: ./log/PointAttN_baseline_hcd_cd_debug_pcn/best_cd_p_coarse_network.pth   
 # load_model: ./log/PointAttN_baseline_hcd_cd_debug_pcn/network.pth 
 
-# load_model: ./log/PointAttN_downsampling_cd_cd_debug_pcn/best_f1_network.pth   
-# load_model: ./log/PointAttN_downsampling_cd_cd_debug_pcn/network.pth 
+# load_model: ./log/PointAttN_sfa_cd_cd_debug_pcn/best_cd_p_network.pth   
+# load_model: ./log/PointAttN_sfa_cd_cd_debug_pcn/network.pth 
 
-# load_model: ./log/PointAttN_downsampling_hcd_cd_debug_pcn/best_cd_p_network.pth   
-# load_model: ./log/PointAttN_downsampling_hcd_cd_debug_pcn/network.pth 
-
+# load_model: ./log/PointAttN_sfa_hcd_cd_debug_pcn/best_cd_p_network.pth   
+# load_model: ./log/PointAttN_sfa_hcd_cd_debug_pcn/network.pth 
 
 start_epoch: 0
 num_points: 2048
