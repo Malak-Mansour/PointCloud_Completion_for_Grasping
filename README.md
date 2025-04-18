@@ -26,4 +26,6 @@ The baseline code is borrowed from [PointAttN](https://github.com/ohhhyeahhh/Poi
 
 Modification to the generation was borrowed from [PointSea](https://github.com/czvvd/SVDFormer_PointSea)
 
+HCD loss function was borrowed from [HyperCD](https://github.com/ark1234/ICCV2023-HyperCD)
+
 The point clouds are visualized with [Easy3D](https://github.com/LiangliangNan/Easy3D)
