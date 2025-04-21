@@ -3,8 +3,6 @@
 1. Collecting sim data from IsaacSim strawberry field setup
 2. Collecting real dataset from an indoor strawberry field
 3. Train modified PointAttn using real+sim datasets **PointAttN-Modified/PointAttN-Modified_main/models/PointAttN.py**
-4. TO-DO: Send topics to MoveIt to test grasping
-5. TO-DO: Deploy on robotic arm using Nvidia Jetson Orin
 
 
 ## Dataset
